@@ -1,0 +1,19 @@
+.blogCard{
+    padding: 16px;
+    margin:16px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0px 25px 15px #b8b9f4;
+    /* background-color: rgb(243, 234, 234); */
+    font-size: medium;
+    }
+
+.blogCard>button{
+    font-size: medium;
+}
+@media (min-width: 980px){
+    .blogCard{
+        width: 40%;
+        display: inline-block;
+    }
+}
